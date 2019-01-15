@@ -113,10 +113,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\JornalistasController.cs" />
     <Compile Include="Controllers\NoticiasController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Jornalista.cs" />
     <Compile Include="Models\Noticia.cs" />
     <Compile Include="Models\RepositorioNoticias.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -128,6 +130,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Noticias\Index.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <Content Include="Views\Jornalistas\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

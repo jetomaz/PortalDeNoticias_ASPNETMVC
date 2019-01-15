@@ -18,6 +18,12 @@ namespace PortalDeNoticias
                 url: "{controller}/{action}/{id}",
                 defaults: new { controller = "Noticias", action = "Index", id = UrlParameter.Optional }
             );
+
+            routes.MapRoute(
+                name: "Jornalistas",
+                url: "{controller}/{action}/{id}",
+                defaults: new { controller = "Jornalistas", action = "Index", id = UrlParameter.Optional }
+            );
         }
     }
 }
