@@ -35,11 +35,10 @@ namespace PortalDeNoticias.Models
             noticias.Add(new Noticia
             {
                 Id = 2,
-                Titulo = "Jairo Blsonaro é Eleito Presidente do Brasil",
+                Titulo = "Jairo Bolsonaro é Eleito Presidente do Brasil",
                 Autor = "Jose Eduardo",
                 Data = DateTime.Today,
-                Conteudo = "Apos um jogo dramartico contra a seleção da Alemanha, finalmente a seleção Brasileira consegui seu 5" +
-                "titulo mundial de futebol, um feito e tanto para nossosatletas que tanto se dedicaram"
+                Conteudo = "Apos eleições conturbadas o Brasil tem um novo presidente, Jair Bolsonaro foi eleito com 55% dos votos, nas eleições do ultimo domingo."
             });
 
             noticias.Add(new Noticia
@@ -48,8 +47,7 @@ namespace PortalDeNoticias.Models
                 Titulo = "Fabio Junior se casa pela 16 Vez",
                 Autor = "Jose Eduardo",
                 Data = DateTime.Today,
-                Conteudo = "Apos um jogo dramartico contra a seleção da Alemanha, finalmente a seleção Brasileira consegui seu 5" +
-                "titulo mundial de futebol, um feito e tanto para nossosatletas que tanto se dedicaram"
+                Conteudo = "Teste de cadastro de uma noticia onde informamos que o Sr Jabio Junior se casou mais uma vez, claro que isso não passa de uma brincadeira para termos posts, para podermos testar nosso projeto"
             });
 
             noticias.Add(new Noticia
